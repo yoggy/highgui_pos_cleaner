@@ -14,7 +14,7 @@ Windows環境でcv::imshow()でウインドウを表示した場合、
 これは以下のような実装で、ウインドウのサイズ・位置がレジストリに保存されていて、
 次回起動時に状態を復元するためである。
 
-![http://i.gyazo.com/6a2ffa8696728cc674f174392288da92.png](http://i.gyazo.com/6a2ffa8696728cc674f174392288da92.png,"図1 レジストリからウインドウサイズ・位置を読み込む実装")
+* ![http://i.gyazo.com/6a2ffa8696728cc674f174392288da92.png](http://i.gyazo.com/6a2ffa8696728cc674f174392288da92.png,"図1 レジストリからウインドウサイズ・位置を読み込む実装")
 * https://github.com/Itseez/opencv/blob/master/modules/highgui/src/window_w32.cpp#L303
 
 この機能は、実験などで頻繁にプログラムを起動する際に
