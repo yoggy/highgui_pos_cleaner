@@ -9,9 +9,9 @@ highgui_pos_cleaner.exeを実行するだけ。
 
 メモ
 ----
-Windows環境でcv::imshow()でウインドウを表示した場合、
-次回プログラム実行時も同じ位置にウインドウが表示される。
-これは前回表示したウインドウのサイズ・位置がレジストリに保存されていて、
+Windows環境でcv::imshow()を使ってウインドウを表示した場合、
+次回プログラム実行時にも同じ位置にウインドウが表示される。
+これはcv::imshow()を使って表示したウインドウのサイズ・位置がレジストリに保存されていて、
 次回起動時にウインドウの状態を復元するためである。
 
 * https://github.com/Itseez/opencv/blob/master/modules/highgui/src/window_w32.cpp#L303
