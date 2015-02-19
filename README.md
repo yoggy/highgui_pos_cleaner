@@ -63,3 +63,11 @@ highguiにはcv::moveWindow()という関数も用意されているので、
       }
     }
 
+ちなみに…
+----
+regコマンドを使ってレジストリを削除する方法もあります。
+
+    reg.exe delete HKCU\Software\OpenCV\HighGUI\Windows\ /f
+
+Reg delete (Microsoft TechNet)
+* https://technet.microsoft.com/en-us/library/cc742145.aspx
